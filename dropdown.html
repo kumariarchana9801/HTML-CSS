@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+	<style>
+		.dropdown{
+			border: 1px solid white;
+			width: 70px;
+			padding: 10px;
+			background-color: black;
+			color: white;
+			position: relative;
+	
+		}
+		.dropdownlist{
+			display: none;
+			position: absolute;
+			background-color: rgb(117, 113, 113);
+			left: 35px;
+			width: 120px;
+			top: 32px;
+		}
+		.dropdown:hover .dropdownlist{
+			display: block;
+		}
+		.courseName{
+			padding: 10px;
+			border: 1px solid white;
+		}
+	</style>
+	<body>
+		<div class="dropdown">COURSES
+			<div class="dropdownlist">
+				<div class="courseName">HTML</div>
+				<div class="courseName">CSS</div>
+				<div class="courseName">JAVASCRIPT</div>
+				<div class="courseName">REACT</div>
+				<div class="courseName">MONGODB</div>
+				<div class="courseName">NODE</div>
+			</div>
+		</div>
+</body>
+</html>
