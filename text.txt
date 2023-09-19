@@ -1,53 +1,45 @@
-css:
-3 ways
->inline css
-:- use style attribute
-:-style=""
-======================
->internal css
-:- use  style tag 
-:-use tag 
-------------------------
->external css
-:-external css means different type of file are saperated like css,html,java etc.
-:-it help to make a big project.
-:-#style.css
-==========================================
+Box model:padding,margin,border
+kind of wrapper around every html element
+1.margin-space outside the border around the element.
+2.border-drawing a little around the element.
+3.Padding-space inside the border sorrounding the element.
 
-propertyname:value
-inline css:
-style attribute
-style=""
+Padding:
+shorthand properties
+padding:100px=>TRBL,top right bottom left.
+padding:70px,50px =>TB RL
+padding:10px 20px 30px 40px=>TRBL
+padding:5px 6px 7px =>TRB xxxleftxxx R=L(6px)
+padding:5px 0px 6px 7px=>TRBL
 
-3 types of selectors:-
-tag selectors
-id selectors
-class selectors
+Pseudo clas:
+state of the particular element
+selector:Pseudo class
+love hate
+>l-link-unvisited link
+>v-visit-visited link
+>h-hover-move a cursor over the link
+>a-active-when to click that time
+=====================================================
+POsition:
+1-static
+2-relative
+3-absolute
+4-fixed
+5-sticky
 
--------------==============------------------------------
-Tag selector:
-tag name{
-	propertyname:value;
-}
->use singe tag h1 to h5
 
------------------------------------------------------
-class selectors:
-.class name{
-	color:red;
-}
->multiple time is a similer manner
->most useable
->class attribute
->class="userdefined"
->prefix .classname
->multiple places
+position:static=>default one=>no change=> left right top bottom no change
+position:relative
+position:absolute
+position:fixed
+position:sticky
 
-------------------------------------------------------------
+left
+OR
+right
 
-id selectors:
->id attribute
->id="userdefined"
->prefix #idname
->one places
+top 
+OR
+bottom
 
